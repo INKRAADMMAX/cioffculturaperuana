@@ -1,0 +1,38 @@
+#vid_principal{
+    position: absolute;
+    top: 120px;
+    left: 740px;
+}@media (max-width: 900px){
+    body{
+        background: url(../img/machu_picchu_telefono.jpg);
+    }
+    #logo_mapa{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+        border-width: 50px;
+        padding: 20px;
+    }
+    /*Enlaces de las otras paginas*/
+    #paginas_inicio0{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    #paginas_inicio1{
+        position: absolute;/*Así se mueve los objetos*/
+        top: 20px;
+        left: 150px;
+    }
+    #paginas_inicio2{
+        position: absolute;/*Así se mueve los objetos*/
+        top: 80px;
+        left: 30px;
+    }
+    #paginas_inicio3{
+        position: absolute;/*Así se mueve los objetos*/
+        top: 80px;
+        left: 180px;
+    }
+}

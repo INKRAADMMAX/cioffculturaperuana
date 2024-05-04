@@ -1,0 +1,146 @@
+.card {
+    width: 190px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+  }
+  
+  .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+#noticia01{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+#noticia02{
+    position: absolute;
+    top: 150px;
+    left: 920px;
+}
+#noticia03{
+    position: absolute;
+    top: 150px;
+    left: 1140px;
+}
+#noticia04{
+    position: absolute;
+    top: 420px;
+    left: 700px;
+}
+#noticia05{
+    position: absolute;
+    top: 420px;
+    left: 920px;
+}
+#noticia06{
+    position: absolute;
+    top: 420px;
+    left: 1140px;
+}
+
+/*Cambio de background para telefono*/
+@media (max-width: 900px){
+    body{
+        background: url(../img/machu_picchu_telefono.jpg);
+    }
+    #logo_mapa{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+        border-width: 50px;
+        padding: 20px;
+    }
+    /*Enlaces de las otras paginas*/
+    #paginas_inicio0{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    #paginas_inicio1{
+        position: absolute;/*Así se mueve los objetos*/
+        top: 20px;
+        left: 150px;
+    }
+    #paginas_inicio2{
+        position: absolute;/*Así se mueve los objetos*/
+        top: 80px;
+        left: 30px;
+    }
+    #paginas_inicio3{
+        position: absolute;/*Así se mueve los objetos*/
+        top: 80px;
+        left: 180px;
+    }
+    /*Se le suma 245 de top*/
+    #noticia01{
+        top: 420px;
+        left: 0px;
+    }
+    #noticia02{
+        top: 420px;
+        left: 200px;
+    }
+    #noticia03{
+        top: 665px;
+        left: 0px;
+    }
+    #noticia04{
+        top: 665px;
+        left: 200px;
+    }
+    #noticia05{
+        top: 910px;
+        left: 0px;
+    }
+    #noticia06{
+        top: 910px;
+        left: 200px;
+    }
+}
